@@ -790,6 +790,20 @@ section {
   height: 100%;
 }
 
+.services .icon-inner-box {
+  padding: 30px;
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .services .icon-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
@@ -808,14 +822,16 @@ section {
 }
 
 .services .title {
-  margin-left: 40px;
-  font-weight: 700;
+  //margin-left: 40px;
+  //font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  color:#FFF;
+  //font-size: 18px;
 }
 
 .services .title a {
-  color: #2a2c39;
+  // color: #2a2c39;
+  color: #FFF;
   transition: ease-in-out 0.3s;
 }
 
