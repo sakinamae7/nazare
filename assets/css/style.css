@@ -829,13 +829,13 @@ section {
   //font-size: 18px;
 }
 
-.services .title a {
+.services a .title {
   // color: #2a2c39;
   color: #FFF;
   transition: ease-in-out 0.3s;
 }
 
-.services .title a:hover {
+.services a:hover .title {
   color: #ef6603;
 }
 
